@@ -23,7 +23,7 @@ quality, number or colors, resizing, cropping, Exif information
 removal, etc.
 
 %prep
-%setup -q -n gimp-saveforweb-plugin-%{version}
+%setup -q -n gimp-save-for-web-%{version}
 
 %build
 %configure
