@@ -30,7 +30,6 @@ removal, etc.
 %make_build
 
 %install
-rm -rf $RPM_BUILD_ROOT
 %make_install
 %find_lang gimp20-save-for-web
 
