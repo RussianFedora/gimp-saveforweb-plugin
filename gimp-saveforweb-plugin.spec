@@ -1,6 +1,6 @@
 Name: gimp-saveforweb-plugin
 Version: 0.29.3
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: Save for web plug-in for GIMP
 
 License: GPLv2+
@@ -42,7 +42,7 @@ removal, etc.
 %{_datadir}/gimp-save-for-web
 
 %changelog
-* Sat Jul 25 2015 Maxim Orlov <murmansksity@gmail.com> - 0.29.3-1.R
+* Sat Jul 25 2015 Maxim Orlov <murmansksity@gmail.com> - 0.29.3-2.R
 - Fixed incorrect-fsf-address lint error.
 
 * Mon Jul 20 2015 Maxim Orlov <murmansksity@gmail.com> - 0.29.3-1.R
