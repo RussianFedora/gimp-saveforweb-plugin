@@ -34,7 +34,7 @@ diff -Naur gimp-save-for-web-0.29.3.orig/src/webx_prefs.c gimp-save-for-web-0.29
   *
   */
  
-diff -Naur gimp-save-for-web-0.29.3.orig/src/webx_prefs.h gimp-saveforweb-plugin-0.29.3/src/webx_prefs.h
+diff -Naur gimp-save-for-web-0.29.3.orig/src/webx_prefs.h gimp-save-for-web-0.29.3/src/webx_prefs.h
 --- gimp-save-for-web-0.29.3.orig/src/webx_prefs.h 2011-10-14 16:37:49.000000000 +0400
 +++ gimp-save-for-web-0.29.3/src/webx_prefs.h	   2015-07-25 14:39:20.000000000 +0300
 @@ -17,7 +17,7 @@
