@@ -6,6 +6,7 @@ Summary: Save for web plug-in for GIMP
 License: GPLv2+
 URL: http://registry.gimp.org/node/33
 Source0: http://registry.gimp.org/files/gimp-save-for-web-%{version}.tar.bz2
+Patch0: gimp-saveforweb-plugin-fsf.patch
 
 BuildRequires: gimp-devel >= 2.4.0
 BuildRequires: pkgconfig
@@ -24,6 +25,7 @@ removal, etc.
 
 %prep
 %setup -q -n gimp-save-for-web-%{version}
+%patch0 -p1
 
 %build
 %configure
@@ -40,5 +42,8 @@ removal, etc.
 %{_datadir}/gimp-save-for-web
 
 %changelog
+* Sat Jul 25 2015 Maxim Orlov <murmansksity@gmail.com> - 0.29.3-1.R
+- Fixed incorrect-fsf-address lint error.
+
 * Mon Jul 20 2015 Maxim Orlov <murmansksity@gmail.com> - 0.29.3-1.R
 - Initial package.

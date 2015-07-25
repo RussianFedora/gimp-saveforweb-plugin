@@ -1,0 +1,48 @@
+diff -Naur gimp-save-for-web-0.29.3.orig/src/cursors.c gimp-save-for-web-0.29.3/src/cursors.c
+--- gimp-save-for-web-0.29.3.orig/src/cursors.c	2011-10-14 16:37:49.000000000 +0400
++++ gimp-save-for-web-0.29.3/src/cursors.c	2015-07-25 14:35:56.000000000 +0300
+@@ -16,7 +16,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
++ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, 02110-1301, USA.
+  */
+ 
+ #include <config.h>
+diff -Naur gimp-save-for-web-0.29.3.orig/src/cursors.h gimp-save-for-web-0.29.3/src/cursors.h
+--- gimp-save-for-web-0.29.3.orig/src/cursors.h	2011-10-14 16:37:49.000000000 +0400
++++ gimp-save-for-web-0.29.3/src/cursors.h	2015-07-25 14:36:32.000000000 +0300
+@@ -16,7 +16,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
++ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+  */
+ 
+ #ifndef CURSORS_H
+diff -Naur gimp-save-for-web-0.29.3.orig/src/webx_prefs.c gimp-save-for-web-0.29.3/src/webx_prefs.c
+--- gimp-save-for-web-0.29.3.orig/src/webx_prefs.c 2011-10-14 16:37:49.000000000 +0400
++++ gimp-save-for-web-0.29.3/src/webx_prefs.c	   2015-07-25 14:38:57.000000000 +0300
+@@ -17,7 +17,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
++ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+  *
+  */
+ 
+diff -Naur gimp-save-for-web-0.29.3.orig/src/webx_prefs.h gimp-saveforweb-plugin-0.29.3/src/webx_prefs.h
+--- gimp-save-for-web-0.29.3.orig/src/webx_prefs.h 2011-10-14 16:37:49.000000000 +0400
++++ gimp-save-for-web-0.29.3/src/webx_prefs.h	   2015-07-25 14:39:20.000000000 +0300
+@@ -17,7 +17,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
++ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+  *
+  */
+
