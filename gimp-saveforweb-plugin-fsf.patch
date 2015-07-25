@@ -6,7 +6,7 @@ diff -Naur gimp-save-for-web-0.29.3.orig/src/cursors.c gimp-save-for-web-0.29.3/
   * You should have received a copy of the GNU General Public License
   * along with this program; if not, write to the Free Software
 - * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
-+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, 02110-1301, USA.
++ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
   */
  
  #include <config.h>
@@ -18,7 +18,7 @@ diff -Naur gimp-save-for-web-0.29.3.orig/src/cursors.h gimp-save-for-web-0.29.3/
   * You should have received a copy of the GNU General Public License
   * along with this program; if not, write to the Free Software
 - * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
-+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
++ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
   */
  
  #ifndef CURSORS_H
@@ -30,7 +30,7 @@ diff -Naur gimp-save-for-web-0.29.3.orig/src/webx_prefs.c gimp-save-for-web-0.29
   * You should have received a copy of the GNU General Public License
   * along with this program; if not, write to the Free Software
 - * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
-+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
++ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
   *
   */
  
@@ -42,7 +42,7 @@ diff -Naur gimp-save-for-web-0.29.3.orig/src/webx_prefs.h gimp-save-for-web-0.29
   * You should have received a copy of the GNU General Public License
   * along with this program; if not, write to the Free Software
 - * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
-+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
++ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
   *
   */
 
