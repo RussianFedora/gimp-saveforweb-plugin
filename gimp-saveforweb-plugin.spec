@@ -1,19 +1,16 @@
-Name: gimp-saveforweb-plugin
-Version: 0.29.3
-Release: 2%{?dist}
-Summary: Save for web plug-in for GIMP
+Name:          gimp-saveforweb-plugin
+Version:       0.29.3
+Release:       3%{?dist}
+Summary:       Save for web plug-in for GIMP
 
-License: GPLv2+
-URL: http://registry.gimp.org/node/33
-Source0: http://registry.gimp.org/files/gimp-save-for-web-%{version}.tar.bz2
-Patch0: gimp-saveforweb-plugin-fsf.patch
+License:       GPLv2+
+URL:           http://registry.gimp.org/node/33
+Source0:       http://registry.gimp.org/files/gimp-save-for-web-%{version}.tar.bz2
+Patch0:        %{name}-fsf.patch
 
 BuildRequires: gimp-devel >= 2.4.0
-BuildRequires: pkgconfig
 BuildRequires: intltool
-BuildRequires: gettext
-
-Requires: gimp >= 2.4
+Requires:      gimp >= 2.4
 
 %description
 Save for Web allows to find compromise between minimal file size
@@ -42,6 +39,9 @@ removal, etc.
 %{_datadir}/gimp-save-for-web
 
 %changelog
+* Sat Nov 07 2015 Maxim Orlov <murmansksity@gmail.com> - 0.29.3-3.R
+- Removed unnecessary BR
+
 * Sat Jul 25 2015 Maxim Orlov <murmansksity@gmail.com> - 0.29.3-2.R
 - Fixed incorrect-fsf-address lint error.
 
